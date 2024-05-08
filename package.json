@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "start": "npm run dev",
     "sass": "sass src/scss/main.scss src/dist/main.css",
-    "predeploy": "npm install --force && npm run build",
+    "heroku-postbuild": "npm install --force && npm run build",
     "deploy":"gh-pages -d build"
   },
   "dependencies": {
