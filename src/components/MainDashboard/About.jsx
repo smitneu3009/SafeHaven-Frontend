@@ -100,11 +100,11 @@ const About = () => {
         </Typography>
         <Grid container spacing={0} justify="center">
           {/* Profile 1 */}
-          <Grid item xs={6} sm={3}>
+          {/* <Grid item xs={6} sm={3}>
             <Avatar alt="Person 1" src={Person1} className={classes.avatar} />
             <Typography variant="h6" align="center">Sohan Patil</Typography>
             <Typography variant="body2" align="center">Software Engineer</Typography>
-          </Grid>
+          </Grid> */}
           {/* Profile 2 */}
           <Grid item xs={6} sm={3}>
             <Avatar alt="Person 2" src={Person2} className={classes.avatar} />
@@ -112,17 +112,17 @@ const About = () => {
             <Typography variant="body2" align="center">Software Engineer</Typography>
           </Grid>
           {/* Profile 3 */}
-          <Grid item xs={6} sm={3}>
+          {/* <Grid item xs={6} sm={3}>
             <Avatar alt="Person 3" src={Person3} className={classes.avatar} />
             <Typography variant="h6" align="center">Damini Thorat</Typography>
             <Typography variant="body2" align="center">Software Engineer</Typography>
-          </Grid>
+          </Grid> */}
           {/* Profile 4 */}
-          <Grid item xs={6} sm={3}>
+          {/* <Grid item xs={6} sm={3}>
             <Avatar alt="Person 4" src={Person4} className={classes.avatar} />
             <Typography variant="h6" align="center">Daksh Patel</Typography>
             <Typography variant="body2" align="center">Software Engineer</Typography>
-          </Grid>
+          </Grid> */}
         </Grid>
       </div>
       <Footer /> {/* Footer component */}

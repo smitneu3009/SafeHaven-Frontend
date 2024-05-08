@@ -126,6 +126,7 @@ out
 # Nuxt.js build / generate output
 .nuxt
 
+
 # Gatsby files
 .cache/
 # Comment in the public line in if your project uses Gatsby and not Next.js
@@ -176,6 +177,8 @@ out
 .DS_*
 **/*.backup.*
 **/*.back.*
+
+node_modules
 
 *.sublime*
 
