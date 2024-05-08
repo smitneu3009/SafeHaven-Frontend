@@ -1,0 +1,133 @@
+.root {
+  margin-top: 50px;
+}
+
+.paper-container {
+  padding: 50px;
+  padding-top: 150px;
+  color: #000 !important;
+  box-shadow: none !important;
+}
+
+.left-content,
+.right-content {
+  width: 100%;
+}
+
+.additional-item {
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  margin-top: 100px;
+  color: #000;
+}
+
+.form-container {
+  color: #fff;
+  text-align: center;
+}
+.form-container .MuiFormControl-root,
+.form-container .MuiTextField-root {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.form-container .MuiInputLabel-root {
+  color: #000;
+}
+.form-container .MuiOutlinedInput-input {
+  color: #000;
+}
+.form-container .MuiOutlinedInput-notchedOutline {
+  border-color: #000 !important;
+}
+.form-container .input-label,
+.form-container .input-props {
+  color: #000 !important;
+}
+
+.query {
+  background-size: cover;
+  border-radius: 50%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.loginbutton {
+  margin-right: "20px";
+  font-size: inherit;
+  margin-right: 10px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.faq-summary {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.faq-accordion {
+  box-shadow: none;
+  margin-bottom: 10px;
+}
+
+.faq-details {
+  padding: 20px;
+}
+
+/* .sidebar {
+    width: 200px;
+    height: 100%;
+    background-color: #f5f5f5;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Add shadow to the sidebar */
+/* }
+
+.section {
+  padding: 10px 0;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.section:hover {
+  background-color: #e0e0e0;
+}
+ */
+.sidebar {
+  /* padding-right: 5%; */
+  width: 17%;
+  height: 100vh;
+  background-color: #222831; /* Background color */
+  color: white; /* Text color */
+}
+
+.section {
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s #76ABAE;
+}
+
+.section:hover {
+  background-color: #76ABAE; /* Hover color */
+}
+
+.main-content {
+  width: 100%;
+  max-height: 90vh;
+  padding-left: 20%;
+}
+
+/*# sourceMappingURL=main.css.map */
